@@ -1,0 +1,103 @@
+.quick-links.departments .department .row {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links li {
+    display: block;
+    margin-bottom: 25px;
+    padding: 0 12.5px;
+}
+
+.quick-links li a.department-link:hover {
+    text-decoration: none;
+    background: #D60E96;
+    color: #fff;
+}
+
+.quick-links.departments .department a:hover .department-phone {
+    color: #fff;
+}
+
+.quick-links.departments li a {
+    height: 146px;
+    padding: 0;
+    border: 1px solid #e1e1e1;
+    background: #f2f2f2;
+    display: flex;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #091f2f;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 20px;
+}
+
+.quick-links.departments .department .department-icon {
+    border-right: 1px solid #e1e1e1;
+    height: 100%;
+}
+
+.quick-links.departments .department .icon-box {
+    margin-left: 15px;
+    padding-top: 50px;
+}
+
+.quick-links.departments .department .fa {
+    font-size: 48px;
+    padding-bottom: 5px;
+}
+
+.fa, .fas {
+    font-family: FontAwesome;
+}
+
+.col-xs-4 {
+    width: 33.33333%;
+}
+
+.col-xs-8 {
+    width: 66.66667%;
+}
+
+.quick-links.departments .department .department-phone {
+    display: block;
+    padding: 5px 0 0;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #585858;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.quick-links.departments .department .department-info {
+    padding: 0 15px 0 30px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+div.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
